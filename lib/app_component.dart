@@ -1,5 +1,4 @@
 import 'package:angular/angular.dart';
-import 'src/heroes/heroes_component.dart';
 import 'package:angular_router/angular_router.dart';
 import 'src/routes.dart';
 
@@ -10,7 +9,7 @@ import 'src/routes.dart';
   selector: 'my-app',
   styleUrls: ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: [routerDirectives, HeroesComponent],
+  directives: [routerDirectives],
   exports: [RoutePaths, Routes],
 )
 class AppComponent {
